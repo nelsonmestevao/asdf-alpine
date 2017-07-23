@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -e
+
+# Install Haskell build deps
+apk add --no-cache --virtual .haskell-build \
+    git autoconf build-base perl-dev
